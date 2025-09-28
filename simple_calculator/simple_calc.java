@@ -12,32 +12,28 @@ public class simple_calc {
         System.out.println();
 
         //Choose operation
-        System.out.println("Choose and operation: add, subtract, multiply, or divide.");
+        System.out.println("Choose an operation: add, subtract, multiply, or divide.");
+        String operation = sc.nextLine();
 
-        String add = sc.next();
-//        String subtract = sc.next();
-//        String multiply = sc.next();
-//        String divide = sc.next();
+        //Get first number
+        System.out.println("Enter your first number.");
+        int num1 = sc.nextInt();
 
-        if  (add.equals("add")) {
-            //Get first number
-            System.out.println("Enter your first number.");
-            int num1 = sc.nextInt();
+        //Get second number
+        System.out.println("Enter your second number.");
+        int num2 = sc.nextInt();
 
-            //Get second number
-            System.out.println("Enter your second number.");
-            int num2 = sc.nextInt();
-
+        //Check operation, perform calculation, and output result
+        if  (operation.equals("add")) {
             int sum = num1 + num2;
-            System.out.println(num1 + " + " + num2 + " equals " + sum);
+            System.out.println(num1 + " + " + num2 + " = " + sum);
         }
 
+        if  (operation.equals("subtract")) {
 
-
-
-
-
-        //Output result
+            int difference = num1 - num2;
+            System.out.println(num1 + " - " + num2 + " = " + difference);
+        }
 
 
     }
