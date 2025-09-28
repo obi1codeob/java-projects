@@ -1,6 +1,6 @@
-import java.util.Scanner;
-
 package calorie_burn_calculator;
+
+import java.util.Scanner;
 
 public class calorie_burn_calculator {
     public static void main (String [] args) {
@@ -14,7 +14,7 @@ public class calorie_burn_calculator {
 
         double calories = ( (age * 0.2757) + (weight * 0.03295) + (heartRate * 1.0781) - 75.4991 ) * time / 8.368;
 
-
+        System.out.printf("Calories: %.2f calories\n", calories);
     }
 }
 
