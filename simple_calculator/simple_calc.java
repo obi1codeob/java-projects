@@ -36,13 +36,13 @@ public class simple_calc {
         }
         // Multiplication
         else if  (operation.equals("x")) {
-            int difference = num1 * num2;
-            System.out.println(num1 + " x " + num2 + " = " + difference);
+            int product = num1 * num2;
+            System.out.println(num1 + " x " + num2 + " = " + product);
         }
         //Division
         else {
-            int difference = num1 / num2;
-            System.out.println(num1 + " / " + num2 + " = " + difference);
+            int quotient = num1 / num2;
+            System.out.println(num1 + " / " + num2 + " = " + quotient);
         }
 
     }
