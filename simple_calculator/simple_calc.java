@@ -12,7 +12,7 @@ public class simple_calc {
         System.out.println();
 
         //Choose operation
-        System.out.println("Choose an operation: add, subtract, multiply, or divide.");
+        System.out.println("Choose an operation: +, -, x, or /.");
         String operation = sc.nextLine();
 
         //Get first number
@@ -24,21 +24,22 @@ public class simple_calc {
         int num2 = sc.nextInt();
 
         //Check operation, perform calculation, and output result
-        if  (operation.equals("add")) {
+        //Addition
+        if  (operation.equals("+")) {
             int sum = num1 + num2;
             System.out.println(num1 + " + " + num2 + " = " + sum);
         }
-
-        else if  (operation.equals("subtract")) {
+        //Subtraction
+        else if  (operation.equals("-")) {
             int difference = num1 - num2;
             System.out.println(num1 + " - " + num2 + " = " + difference);
         }
-
-        else if  (operation.equals("multiply")) {
+        // Multiplication
+        else if  (operation.equals("x")) {
             int difference = num1 * num2;
             System.out.println(num1 + " x " + num2 + " = " + difference);
         }
-
+        //Division
         else {
             int difference = num1 / num2;
             System.out.println(num1 + " / " + num2 + " = " + difference);
