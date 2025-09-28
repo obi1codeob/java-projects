@@ -29,20 +29,17 @@ public class simple_calc {
             System.out.println(num1 + " + " + num2 + " = " + sum);
         }
 
-        if  (operation.equals("subtract")) {
-
+        else if  (operation.equals("subtract")) {
             int difference = num1 - num2;
             System.out.println(num1 + " - " + num2 + " = " + difference);
         }
 
-        if  (operation.equals("multiply")) {
-
+        else if  (operation.equals("multiply")) {
             int difference = num1 * num2;
             System.out.println(num1 + " x " + num2 + " = " + difference);
         }
 
-        if  (operation.equals("divide")) {
-
+        else {
             int difference = num1 / num2;
             System.out.println(num1 + " / " + num2 + " = " + difference);
         }
