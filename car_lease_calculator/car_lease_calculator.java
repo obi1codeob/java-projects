@@ -19,7 +19,7 @@ public class car_lease_calculator {
         System.out.println("Enter the monthly payment amount.");
         int paymentPerMonth = sc.nextInt();
 
-        System.out.println("Enter the number of months in the lease.");
+        System.out.println("Enter the number of months on the lease.");
         int numMonths = sc.nextInt();
         System.out.println();
 
