@@ -3,7 +3,7 @@ package calorie_burn_calculator;
 import java.util.Scanner;
 
 public class calorie_burn_calculator {
-    public static void main (String [] args) {
+    public static void main (String[] args) {
 
         // Get user input
         Scanner sc = new Scanner(System.in);
