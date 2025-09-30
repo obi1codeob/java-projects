@@ -16,11 +16,17 @@ public class act_your_age {
         int monthsAge = age * 12;
         int weeksAge = age * 52;
         int daysAge = age * 365;
-        int hoursAge = age * 24;
-        int minutesAge = age * 60;
-        int secondsAge = age * 60 * 60;
+        int hoursAge = age * 24 * 365;
+        int minutesAge = age * 60 * hoursAge;
+        int secondsAge = age * 60 * 60 * minutesAge;
 
-
+        System.out.println("Your age in years is: " + age);
+        System.out.println("Your age in months is: " + monthsAge);
+        System.out.println("Your age in weeks is: " + weeksAge);
+        System.out.println("Your age in days is: " + daysAge);
+        System.out.println("Your age in hours is: " + hoursAge);
+        System.out.println("Your age in minutes is: " + minutesAge);
+        System.out.println("Your age in seconds is: " + secondsAge);
 
     }
 }
