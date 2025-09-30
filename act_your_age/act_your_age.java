@@ -13,12 +13,14 @@ public class act_your_age {
         System.out.println("Enter your age");
         int age = sc.nextInt();
 
-        int months = age * 12;
-        int weeks = age * 52;
-        int days = age * 365;
-        int hours = age * 24;
-        int minutes = age * 60;
-        int seconds = age * 60 * 60;
+        int monthsAge = age * 12;
+        int weeksAge = age * 52;
+        int daysAge = age * 365;
+        int hoursAge = age * 24;
+        int minutesAge = age * 60;
+        int secondsAge = age * 60 * 60;
+
+
 
     }
 }
