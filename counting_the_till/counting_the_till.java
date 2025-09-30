@@ -7,9 +7,22 @@ public class counting_the_till {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Welcome to Till Counter 2025!");
+        System.out.println();
+
+        System.out.println("Simply provide the number of coins you have and the Till Counter will add it up for your in dollars and cents.");
+        System.out.println();
+
+        System.out.println("How many quarters do you have?");
         int quarters = sc.nextInt();
+
+        System.out.println("How many dimes do you have?");
         int dimes = sc.nextInt();
+
+        System.out.println("How many nickels do you have?");
         int nickels = sc.nextInt();
+
+        System.out.println("How many pennies do you have?");
         int pennies = sc.nextInt();
 
         //Convert ints to doubles
