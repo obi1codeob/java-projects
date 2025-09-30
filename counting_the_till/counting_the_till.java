@@ -12,7 +12,13 @@ public class counting_the_till {
         int nickels = sc.nextInt();
         int pennies = sc.nextInt();
 
-        double dollars = (quarters * 0.25) + (dimes * 0.10) + (nickels * 0.05) + (pennies * 0.01);
+        //Convert ints to doubles
+        double quartersD = quarters;
+        double dimesD = dimes;
+        double nickelsD = nickels;
+        double penniesD = pennies;
+
+        double dollars = (quartersD * 0.25) + (dimesD * 0.10) + (nickelsD * 0.05) + (penniesD * 0.01);
 
         System.out.printf("Amount: $%.2f\n",dollars);
     }
