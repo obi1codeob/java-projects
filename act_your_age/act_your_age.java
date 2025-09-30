@@ -20,7 +20,13 @@ public class act_your_age {
         int minutesAge = age * 60 * hoursAge;
         int secondsAge = age * 60 * 60 * minutesAge;
 
-        System.out.println("You are " + age + " " + (age == 1 ? "year" : "years") + ", " + monthsAge + " months, " + weeksAge + " weeks, " + daysAge + " days, " + hoursAge + " hours, " + minutesAge + " minutes, and " + secondsAge + " seconds old.");
+        System.out.println("You are " + age + " " + (age == 1 ? "year" : "years") + ", " +
+                String.format("%,d",monthsAge) + " months, " +
+                String.format("%,d",weeksAge) + " weeks, " +
+                String.format("%,d",daysAge) + " days, " +
+                String.format("%,d",hoursAge) + " hours, " +
+                String.format("%,d",minutesAge) + " minutes and " +
+                String.format("%,d",secondsAge) + " seconds old.");
 
 
     }
