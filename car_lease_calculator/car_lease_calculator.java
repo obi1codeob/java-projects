@@ -1,5 +1,6 @@
 package car_lease_calculator;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class car_lease_calculator {
@@ -24,7 +25,10 @@ public class car_lease_calculator {
 
         double totalCost = downPayment + (paymentPerMonth * numMonths);
 
-        System.out.printf("Your total cost of the car lease is: $%.2f\n ", totalCost);
+        DecimalFormat formatter = new DecimalFormat("$#,###");
+
+        System.out.print("Your total cost of the car lease is: ");
+        System.out.println(formatter.format(totalCost));
 
     }
 }
