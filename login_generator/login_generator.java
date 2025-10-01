@@ -8,8 +8,13 @@ public class login_generator {
         Scanner sc = new Scanner(System.in);
 
         //Get input from user
+        System.out.println("What is your first name?");
         String firstName = sc.nextLine();
+
+        System.out.println("What is your last name?");
         String lastName = sc.nextLine();
+
+        System.out.println("Choose a 4-digit number");
         int number = sc.nextInt();
 
         //Build login name
