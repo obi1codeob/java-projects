@@ -22,6 +22,10 @@ public class login_generator {
         //Get the last digit of the number
         int lastDigit = number % 10;
 
+        //Output the final login username
+        System.out.println("Your login name: " + loginFirst + loginLast + "_" + lastDigit);
+
+
 
 
     }
