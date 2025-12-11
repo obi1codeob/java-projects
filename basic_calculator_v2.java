@@ -1,3 +1,5 @@
+//*** Basic Calculator v2: Allows for multiple operations ***
+
 //Import scanner module so user input can be collected
 import java.util.Scanner;
 
