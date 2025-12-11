@@ -19,13 +19,30 @@ public class q1_print_letter_H {
         System.out.println("Enter a letter of the English alphabet: ");
         String ltr = scnr.nextLine().toUpperCase();
 
+        //Create switch case for all letter of the alphabet
+        switch (ltr) {
+            case "O": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "H": {
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr + ltr + ltr + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                break;
+            }
+        }
+
         //Using the capital letter, output the provided pattern using formatted output
 
-        System.out.println(ltr + "   " + ltr);
-        System.out.println(ltr + "   " + ltr);
-        System.out.println(ltr + ltr + ltr + ltr + ltr);
-        System.out.println(ltr + "   " + ltr);
-        System.out.println(ltr + "   " + ltr);
+
 
 
     }
