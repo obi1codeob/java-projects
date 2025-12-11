@@ -1,3 +1,5 @@
+//*** Madlib Program ***
+
 //Get Scanner module so we can collect user input
 import java.util.Scanner;
 

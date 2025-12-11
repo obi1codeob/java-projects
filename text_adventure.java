@@ -1,3 +1,5 @@
+//*** Text Adventure Program ***
+
 //Import scanner module to collect user input
 import java.util.Scanner;
 
