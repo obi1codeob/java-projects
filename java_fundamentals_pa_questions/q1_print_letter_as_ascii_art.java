@@ -6,7 +6,7 @@ package java_fundamentals_pa_questions;
 //Import scanner utility so user input can be collected
 import java.util.Scanner;
 
-public class q1_print_letter_H {
+public class q1_print_letter_as_ascii_art {
     public static void main (String[] args) {
 
         //Create a scanner to get user input
