@@ -1,3 +1,5 @@
+//*** Basic Calculator ***
+
 //Import scanner module so user input can be collected
 import java.util.Scanner;
 
