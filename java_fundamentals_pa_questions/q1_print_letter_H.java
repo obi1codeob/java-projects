@@ -21,7 +21,62 @@ public class q1_print_letter_H {
 
         //Create switch case for all letter of the alphabet
         switch (ltr) {
-            case "O": {
+            case "A": {
+                //Using the capital letter, output the letter pattern using formatted output
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "B": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "C": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "D": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "E": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "F": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "G": {
                 System.out.println(ltr + ltr+ ltr +ltr +ltr);
                 System.out.println(ltr + "   " + ltr);
                 System.out.println(ltr + "   " + ltr);
@@ -38,12 +93,169 @@ public class q1_print_letter_H {
                 System.out.println(ltr + "   " + ltr);
                 break;
             }
+
+            case "I": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "J": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "K": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "L": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "M": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "N": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "O": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "P": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "Q": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "R": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "S": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "T": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "U": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "V": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "W": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "X": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "Y": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
+
+            case "Z": {
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + "   " + ltr);
+                System.out.println(ltr + ltr+ ltr +ltr +ltr);
+                break;
+            }
         }
-
-        //Using the capital letter, output the provided pattern using formatted output
-
-
-
 
     }
 }
