@@ -333,23 +333,22 @@ public class text_adventure {
         System.out.println("Do you want your character to be male or female? m or f");
         String character_gender = scnr.nextLine();
 
-        while(true) {
-            character_gender = scnr.nextLine();
              if (character_gender.equals("m")) {
                  character_gender = "Male";
-                 break;
              }
              else if (character_gender.equals("f")) {
                 character_gender = "Female";
-                break;
             }
              else {
                  System.out.println("Invalid input. Please input 'm' or 'f'.");
              }
-        }
-        System.out.println("Race: " + character_race);
-        System.out.println("Gender: " + character_gender);
 
-        scnr.close();
+            System.out.println("Race: " + character_race);
+            System.out.println("Gender: " + character_gender);
+
+            //Choose a sign
+
+            scnr.close();
+        }
+
     }
-}
