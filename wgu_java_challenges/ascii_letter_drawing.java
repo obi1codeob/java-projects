@@ -37,6 +37,27 @@ public class ascii_letter_drawing {
             System. out.println("H   H");
         }
 
+              //FUNCTION 3: Get ASCII character from use and create the letter "H"
+
+        //Create a scanner
+        Scanner scnr  = new Scanner(System.in);
+
+        //Get ASCII character from user
+        System.out.println("Choose a keyboard character to draw with.");
+        String userChar = scnr.nextLine();
+
+        //Use for loops to output ASCII character
+        for (int i = 0; i < 2; i++) {
+            System. out.println(userChar + "   " + userChar);
+        }
+
+        System.out.println(userChar+ userChar+ userChar+ userChar+ userChar);
+
+        for (int i = 0; i < 2; i++) {
+            System. out.println(userChar + "   " + userChar);
+        }
+
+
     }
 }
 
