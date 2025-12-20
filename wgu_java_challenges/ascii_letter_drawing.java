@@ -22,5 +22,21 @@ public class ascii_letter_drawing {
         System.out.println("HHHHH");
         System.out.println("H   H");
         System.out.println("H   H");
+
+        //Create blank line to separate functions
+        System.out.println();
+
+        //FUNCTION 2: Use for loop to output letter pattern
+        for (int i = 0; i < 2; i++) {
+            System. out.println("H   H");
+        }
+
+        System.out.println("HHHHH");
+
+        for (int i = 0; i < 2; i++) {
+            System. out.println("H   H");
+        }
+
     }
 }
+
