@@ -13,7 +13,7 @@
 
 import java.util.Scanner;
 
-public class ascii_letter_drawing {
+public class project_ascii_letter_drawing {
     public static void main(String[] args) {
 
         //FUNCTION 1: Use print function to output letter pattern
