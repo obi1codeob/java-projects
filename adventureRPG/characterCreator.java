@@ -12,6 +12,23 @@ public class characterCreator {
         //Create new random
         Random rand =  new Random();
 
+        //Declare variables
+
+        //Character descriptors
+        String race;
+        String profession;
+        Boolean isMale = true;
+
+        //Attributes
+        int strength = rand.nextInt();
+        int intelligence = rand.nextInt();
+        int willpower = rand.nextInt();
+        int agility = rand.nextInt();
+        int speed = rand.nextInt();
+        int endurance = rand.nextInt();
+        int personality = rand.nextInt();
+        int luck = rand.nextInt();
+
         //Game welcome screen
         System.out.println("*****************************************");
         System.out.println(" Welcome to Adventure Character Creator!");
@@ -24,7 +41,7 @@ public class characterCreator {
         System.out.println("[k] Khajit       [n] Nord       [o] Orc          [r] Redguard     [w] Wood Elf");
         System.out.println();
         //Get user input for character race and output race name based on user selection
-        String race = sc.next();
+        race = sc.next();
 
         switch (race) {
             case "a":
@@ -110,6 +127,18 @@ public class characterCreator {
                 System.out.println("INITIAL BONUSES: +10 Archery, +5 Alchemy, Light Armor, Lockpicking, Pickpocket, Sneak");
                 break;
         }
+
+        //Ask user to choose a gender
+        System.out.println("Is your character male? true or false");
+        isMale = sc.nextBoolean();
+
+        if (isMale) {
+            System.out.println("You character is male.");
+        }
+        else {
+            System.out.println("Your character is female.");
+        }
+
 
     }
 }
