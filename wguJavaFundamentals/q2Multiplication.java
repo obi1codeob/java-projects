@@ -24,5 +24,21 @@ public class q2Multiplication {
 
         //Compute the product
         product = starting_num * multiplier;
+
+        //Output product
+        System.out.print(product);
+
+        //Add space after product
+        System.out.print(" ");
+
+        //Output product two more time, each time multiplying product by multiplier
+        product *= multiplier;
+        System.out.print(product);
+
+        //Add space after product
+        System.out.print(" ");
+
+        product *= multiplier;
+        System.out.println(product);
     }
 }
