@@ -43,6 +43,7 @@ public class q3WeddingTables {
     int guests;
     int tableSize = 10;
     int tablesFilled;
+    int tablesNeeded;
 
     //Get number of guests from user input
     System.out.println("How many guests are expected to attend the wedding?");
@@ -53,6 +54,10 @@ public class q3WeddingTables {
 
     //Output the number of filled tables
     System.out.println("Tables filled: " + tablesFilled);
+
+    //Calculate how many actual tables are needed to seat all guests
+    tablesNeeded = (guests + tableSize - 1) / tableSize;
+    System.out.println("Tables Needed to Seat All Guests: " + tablesNeeded);
 
     }
 }
