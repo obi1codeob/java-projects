@@ -41,5 +41,13 @@ public class q5_divisibleBy3 {
             System.out.println("Invalid input!");
         }
 
+        else if ((hundreds + tens + ones) % 3 == 0) {
+            System.out.println(fullNumber + " is divisible by 3!");
+        }
+
+        else {
+            System.out.println(fullNumber + " is not divisible by 3!");
+        }
+
     }
 }
