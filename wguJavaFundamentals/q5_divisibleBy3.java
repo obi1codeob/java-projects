@@ -18,8 +18,15 @@ public class q5_divisibleBy3 {
         String tensStr;
         String onesStr;
 
+        //Get number input from user
+        System.out.println("Enter a number for the hundreds place.");
+        hundreds = sc.nextInt();
 
+        System.out.println("Enter a number for the tens place.");
+        tens = sc.nextInt();
 
+        System.out.println("Enter a number for the ones place.");
+        ones = sc.nextInt();
 
     }
 }
