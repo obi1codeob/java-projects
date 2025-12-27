@@ -28,5 +28,15 @@ public class q5_divisibleBy3 {
         System.out.println("Enter a number for the ones place.");
         ones = sc.nextInt();
 
+        //Convert int input to strings to display in output
+        hundredsStr = Integer.toString(hundreds);
+        tensStr = Integer.toString(tens);
+        onesStr = Integer.toString(ones);
+
+        //Create string that combines string numbers to make a full 3-digit number
+        String fullNumber = hundredsStr + tensStr + onesStr;
+
+
+
     }
 }
