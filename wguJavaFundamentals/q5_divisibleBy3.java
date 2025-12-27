@@ -36,7 +36,10 @@ public class q5_divisibleBy3 {
         //Create string that combines string numbers to make a full 3-digit number
         String fullNumber = hundredsStr + tensStr + onesStr;
 
-
+        // Determine if the three-digit number is divisible by three
+        if (hundreds < 0 || tens < 0 || ones < 0) {
+            System.out.println("Invalid input!");
+        }
 
     }
 }
