@@ -1,4 +1,4 @@
-public class java_whiteboard {
+public class javaWhiteboard {
     public static void main(String[] args) {
 
     }
